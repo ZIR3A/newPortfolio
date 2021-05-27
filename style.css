@@ -137,6 +137,7 @@ li {
 
 #work {
   min-height: 100vh;
+  padding-top: 80px;
 }
 .card {
   height: 400px;
