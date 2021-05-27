@@ -172,7 +172,7 @@ li {
     background-size: contain;
     background-repeat: no-repeat;
     background-size: auto;
-    min-height: 92vh;
+    min-height: 110vh;
   }
   .header__text {
     padding-top: 50px;
