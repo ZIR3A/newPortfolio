@@ -1,0 +1,182 @@
+@import url("https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=ZCOOL+KuaiLe&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+body {
+  background-color: rgb(240, 241, 245);
+}
+.blue_color {
+  color: #30336b;
+}
+.navbar {
+  /* background-color: #8c7ae6 !important; */
+  background-color: transparent !important;
+}
+.navbar-brand {
+  color: #30336b !important;
+  font-size: 1.8rem !important;
+}
+.nav-link {
+  color: #30336b !important;
+  font-weight: 800;
+}
+li {
+  padding-left: 40px;
+}
+.fab {
+  color: #30336b;
+}
+.main__text {
+  color: #8c7ae6;
+}
+
+.header__text {
+  margin-left: 50px;
+  letter-spacing: 0.1em;
+  font-family: "Indie Flower", cursive;
+  font-size: 6.5rem;
+  padding-top: 120px;
+}
+.front_section {
+  /* background-image: url("./Assets/webDev.svg"); */
+  background: url("./Assets/wenDev2.svg");
+  background-position: right;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-size: auto;
+  min-height: 93vh;
+}
+.btn-default {
+  background-color: #30336b;
+  font-size: 1.5rem;
+  border: none;
+  border-radius: 10px;
+  padding: 15px;
+  color: #fff;
+}
+.btn-default:hover {
+  background-color: transparent;
+  color: #30336b;
+  font-weight: 300;
+}
+.hght_about {
+  min-height: 100vh;
+}
+
+.about_title {
+  color: #30336b;
+}
+.img__i {
+  width: 500px;
+
+  padding-top: 100px;
+}
+.margin__top {
+  padding-top: 50px;
+}
+.main_text {
+  font-size: 1.4rem;
+  color: #30336b;
+}
+.section_skills {
+  min-height: 93vh;
+  margin: auto;
+}
+.box_small {
+  width: 250px;
+}
+.other_skills {
+  margin-top: 120px;
+}
+
+/* Container for skill bars */
+.html_ss,
+.css_ss,
+.js_ss,
+.php_ss {
+  width: 100%; /* Full width */
+  background-color: #ddd; /* Grey background */
+}
+
+.skills {
+  text-align: right; /* Right-align text */
+  padding-top: 5px; /* Add top padding */
+  padding-bottom: 5px; /* Add bottom padding */
+  color: white; /* White text color */
+  border-radius: 10px;
+}
+
+.html {
+  width: 80%;
+  background-color: #30336b;
+} /* Green */
+.css {
+  width: 70%;
+  background-color: #30336b;
+} /* Blue */
+.js {
+  width: 60%;
+  background-color: #30336b;
+} /* Red */
+.php {
+  width: 60%;
+  background-color: #30336b;
+} /* Dark Grey */
+.reactjs {
+  width: 45%;
+  background-color: #30336b;
+}
+.expressjs {
+  width: 40%;
+  background-color: #30336b;
+}
+
+#work {
+  min-height: 100vh;
+}
+.card {
+  height: 400px;
+  max-width: 350px;
+  padding: 10px;
+  margin: 25px auto;
+}
+#contact {
+  min-height: 80vh;
+}
+@media only screen and (max-width: 1700px) {
+  .header__text {
+    padding-top: 50px;
+    margin-left: 0px;
+    font-size: 4.9rem;
+    line-height: 5.2rem;
+  }
+}
+@media only screen and (max-width: 1360px) {
+  .header__text {
+    padding-top: 50px;
+    margin-left: 0px;
+    font-size: 2.9rem;
+    line-height: 5.2rem;
+  }
+}
+@media only screen and (max-width: 1100px) {
+  .front_section {
+    /* background-image: url("./Assets/wenDev2.svg"); */
+    background: url("./Assets/wenDev2.svg");
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: auto;
+    min-height: 52vh;
+  }
+  .header__text {
+    padding-top: 50px;
+    margin-left: 0px;
+    font-size: 1.9rem;
+    line-height: 2.2rem;
+  }
+}
