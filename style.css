@@ -135,10 +135,6 @@ li {
   background-color: #30336b;
 }
 
-#work {
-  min-height: 100vh;
-  padding-top: 80px;
-}
 .card {
   height: 400px;
   max-width: 350px;
@@ -181,3 +177,49 @@ li {
     line-height: 2.2rem;
   }
 }
+
+
+/* works section */
+
+#work {
+  min-height: 100vh;
+  padding-top: 80px;
+}
+
+#work .work-title {
+    font-size: 2.5rem;
+    color: #30336b;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 32px;
+}
+
+#work .work-item-wrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+}
+#work .work-item-wrapper .work-item {
+  border: 1px solid #f6f6f6;
+  border-radius: 8px;
+  padding: 16px;
+  background-color: white;
+  /* max-width: 500px; */
+}
+
+#work .work-item-wrapper .work-item .work-item-title {
+  font-size: 1rem;
+  font-weight: bold;
+}
+#work .work-item-wrapper .work-item .work-item-text {
+  font-size: 0.875rem;
+  color: #333;
+  margin: 0;
+}
+
+#work .work-item-wrapper .work-item .work-item-image {
+  margin-top: 16px;
+  border-radius: 8px;
+  border: 1px solid #f6f6f6;
+}
+/* works section */
